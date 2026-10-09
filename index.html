@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio Akhmad Arjuan Syuhada, mahasiswa Informatika yang hobi motret dan mengembangkan visual digital, dibuat bergaya desktop retro.">
+  <meta name="theme-color" content="#12173a">
+  <title>Portfolio_Photographer.exe | Akhmad Arjuan Syuhada</title>
+
+  <!-- Font piksel: Press Start 2P (judul) & VT323 (label UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=VT323&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Langsung ke konten utama</a>
+
+  <!-- ============ HEADER: MENU BAR APLIKASI ============ -->
+  <header class="menubar">
+    <p class="menubar-title"><span class="ie-icon" aria-hidden="true"></span>Portfolio_Photographer.exe</p>
+    <nav aria-label="Menu aplikasi">
+      <ul>
+        <li><a href="#home">File</a></li>
+        <li><a href="#about">Edit</a></li>
+        <li><a href="#portfolio">View</a></li>
+        <li><a href="#contact">Help</a></li>
+      </ul>
+    </nav>
+    <p class="menubar-status"><span class="dot" aria-hidden="true"></span>Online</p>
+  </header>
+
+  <!-- Navigasi utama (tab bar) -->
+  <nav class="tabbar" aria-label="Navigasi utama">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="main" class="page">
+
+    <!-- ============ HOME / HERO ============ -->
+    <section id="home" class="stage" aria-labelledby="hero-title">
+      <div class="home-grid">
+        <article class="window win-title">
+          <div class="titlebar">
+            <span class="titlebar-icon" aria-hidden="true"></span>
+            <p class="titlebar-name">Title.txt</p>
+            <span class="controls" aria-hidden="true"><span class="ctl">-</span><span class="ctl">&#9633;</span><span class="ctl ctl-close">x</span></span>
+          </div>
+          <div class="window-body">
+            <div class="title-box">
+              <h1 id="hero-title">Halo, aku <strong>Akhmad Arjuan Syuhada</strong>!</h1>
+            </div>
+            <p class="tagline">Mahasiswa Informatika Semester 5 di Universitas Muhammadiyah Malang. Photographer &amp; Developer dengan fokus pada dokumentasi, visual, dan momen yang natural.</p>
+            <div class="actions">
+              <a class="aero" href="#portfolio">Lihat Galeri</a>
+              <a class="aero aero-yellow" href="#contact">Chat Aku</a>
+            </div>
+          </div>
+        </article>
+
+        <ul class="desktop-icons" aria-label="Pintasan folder">
+          <li><a href="#portfolio"><span class="folder" aria-hidden="true"></span>Portrait</a></li>
+          <li><a href="#portfolio"><span class="folder" aria-hidden="true"></span>Street</a></li>
+          <li><a href="#portfolio"><span class="folder" aria-hidden="true"></span>Event</a></li>
+          <li><a href="#portfolio"><span class="folder" aria-hidden="true"></span>Landscape</a></li>
+        </ul>
+
+        <figure class="window win-image">
+          <div class="titlebar">
+            <span class="titlebar-icon" aria-hidden="true"></span>
+            <p class="titlebar-name">Hero_Banner.png</p>
+            <span class="controls" aria-hidden="true"><span class="ctl">-</span><span class="ctl">&#9633;</span><span class="ctl ctl-close">x</span></span>
+          </div>
+          <div class="window-body">
+            <img src="images/hero.jpg"
+                 alt="Foto pameran atau acara malam dengan pencahayaan dramatis" width="1200" height="900" fetchpriority="high">
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="stage" aria-labelledby="about-title">
+      <div class="about-grid">
+
+        <article class="window win-profile">
+          <div class="titlebar">
+            <span class="titlebar-icon" aria-hidden="true"></span>
+            <p class="titlebar-name">About_Me.txt</p>
+            <span class="controls" aria-hidden="true"><span class="ctl">-</span><span class="ctl">&#9633;</span><span class="ctl ctl-close">x</span></span>
+          </div>
+          <div class="window-body">
+            <h2 id="about-title">Kenalan dulu, yuk</h2>
+            <div class="profile-top">
+              <figure class="aero-frame">
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQHMEjbdlnHCfQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726011116697?e=1793232000&amp;v=beta&amp;t=yJGddMmthV-3pBSw2GvLb6nHIRNaWz8UE3Zhm_4UW8c"
+                     alt="Foto profil Akhmad Arjuan Syuhada" width="800" height="1000" loading="lazy">
+              </figure>
+              <div class="profile-id">
+                <p class="profile-name">Akhmad Arjuan Syuhada</p>
+                <p class="profile-meta">Photographer &amp; Developer</p>
+                <p class="last-online">Mahasiswa Informatika Semester 5, Universitas Muhammadiyah Malang</p>
+              </div>
+            </div>
+            <p>Selamat datang di workspace digital saya. Saya adalah seorang mahasiswa Informatika Semester 5 di Universitas Muhammadiyah Malang. Saya aktif mengembangkan sisi visual dan dokumentasi, terutama dalam fotografi, desain, serta eksekusi momen acara.</p>
+
+            <div class="styles">
+              <article class="style-item">
+                <h3 class="aero aero-green">Portrait</h3>
+                <p>Dokumentasi ekspresi, momen personal, dan potret yang terasa natural.</p>
+              </article>
+              <article class="style-item">
+                <h3 class="aero aero-yellow">Street</h3>
+                <p>Jalanan, pasar, dan orang-orang yang lewat dengan cerita dan suasana khas.</p>
+              </article>
+              <article class="style-item">
+                <h3 class="aero aero-orange">Landscape</h3>
+                <p>Pemandangan alam dan sudut kota yang punya cerita dan mood yang kuat.</p>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <aside class="window win-specs" aria-labelledby="specs-title">
+          <div class="titlebar">
+            <span class="titlebar-icon" aria-hidden="true"></span>
+            <p class="titlebar-name">System_Specs.exe</p>
+            <span class="controls" aria-hidden="true"><span class="ctl">-</span><span class="ctl">&#9633;</span><span class="ctl ctl-close">x</span></span>
+          </div>
+          <div class="window-body">
+            <h3 id="specs-title">Hardware.sys</h3>
+            <dl class="specs">
+              <dt>Camera</dt>
+              <dd>Realme 6</dd>
+              <dt>Focus</dt>
+              <dd>Fotografi, dokumentasi acara, dan visual digital</dd>
+              <dt>Setup</dt>
+              <dd>Lightroom, Canva, dan proses edit sederhana untuk hasil yang rapi</dd>
+            </dl>
+            <div class="stats">
+              <p>Pengalaman aktif</p>
+              <p class="counter">2026</p>
+            </div>
+          </div>
+        </aside>
+
+        <article class="window win-skills" aria-labelledby="skills-title">
+          <div class="titlebar">
+            <span class="titlebar-icon" aria-hidden="true"></span>
+            <p class="titlebar-name">Skills.exe</p>
+            <span class="controls" aria-hidden="true"><span class="ctl">-</span><span class="ctl">&#9633;</span><span class="ctl ctl-close">x</span></span>
+          </div>
+          <div class="window-body">
+            <h3 id="skills-title">Software.dll</h3>
+            <ul class="badges">
+              <li class="badge badge-lr"><span aria-hidden="true">Lr</span>Lightroom</li>
+              <li class="badge badge-ps"><span aria-hidden="true">Cv</span>Canva</li>
+              <li class="badge badge-vs"><span aria-hidden="true">VS</span>VS Code</li>
+            </ul>
+            <ul class="meters">
+              <li>Photography <span class="meter" role="img" aria-label="4 dari 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></li>
+              <li>Design <span class="meter" role="img" aria-label="5 dari 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></li>
+              <li>Color grading <span class="meter" role="img" aria-label="4 dari 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></li>
+              <li>Documentation <span class="meter" role="img" aria-label="3 dari 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="window win-resume" aria-labelledby="resume-title">
+          <div class="titlebar">
+            <span class="titlebar-icon" aria-hidden="true"></span>
+            <p class="titlebar-name">Resume.doc</p>
+            <span class="controls" aria-hidden="true"><span class="ctl">-</span><span class="ctl">&#9633;</span><span class="ctl ctl-close">x</span></span>
+          </div>
+          <div class="window-body">
+            <h3 id="resume-title">Pendidikan &amp; pengalaman</h3>
+            <div class="resume-grid">
+              <div>
+                <h4>Pendidikan</h4>
+                <ol class="timeline">
+                  <li><time datetime="2021">2021</time><p>Masuk SMA</p></li>
+                  <li><time datetime="2024">2024</time><p>Lulus SMA, mulai S1 Informatika</p></li>
+                  <li><time datetime="2026">2026</time><p>Kuliah semester 5</p></li>
+                </ol>
+              </div>
+              <div>
+                <h4>Pengalaman</h4>
+                <ul class="jobs">
+                  <li><strong>Koordinator Divisi PDD Pesmaba FT</strong><span>2026</span></li>
+                  <li><strong>Lomba Fotografi Tingkat Nasional, STIE Pariwisata API</strong><span>2026</span></li>
+                  <li><strong>Lomba Fotografi Tingkat Nasional, Poltekkes Yogyakarta</strong><span>2026</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO / FILE EXPLORER ============ -->
+    <section id="portfolio" class="stage" aria-labelledby="portfolio-title">
+      <article class="window win-explorer">
+        <div class="titlebar">
+          <span class="titlebar-icon" aria-hidden="true"></span>
+          <p class="titlebar-name">Portfolio_Photographer.exe</p>
+          <span class="controls" aria-hidden="true"><span class="ctl">-</span><span class="ctl">&#9633;</span><span class="ctl ctl-close">x</span></span>
+        </div>
+        <div class="toolbar">
+          <span>Alamat:</span>
+          <p class="addr">C:\Akhmad\Portfolio\</p>
+        </div>
+        <div class="window-body">
+          <h2 id="portfolio-title">Galeri Foto</h2>
+          <p class="hint">Klik folder buat milih kategori, lalu arahkan kursor ke foto buat lihat judulnya.</p>
+
+          <div class="gallery-wrap">
+            <!-- Filter folder (CSS-only dengan radio button) -->
+            <input type="radio" name="folder" id="f-all" class="filter-input" checked>
+            <input type="radio" name="folder" id="f-portrait" class="filter-input">
+            <input type="radio" name="folder" id="f-street" class="filter-input">
+            <input type="radio" name="folder" id="f-event" class="filter-input">
+            <input type="radio" name="folder" id="f-landscape" class="filter-input">
+
+            <div class="folders" role="group" aria-label="Pilih folder kategori">
+              <label for="f-all"><span class="folder" aria-hidden="true"></span>Semua</label>
+              <label for="f-portrait"><span class="folder" aria-hidden="true"></span>Portrait</label>
+              <label for="f-street"><span class="folder" aria-hidden="true"></span>Street</label>
+              <label for="f-event"><span class="folder" aria-hidden="true"></span>Event</label>
+              <label for="f-landscape"><span class="folder" aria-hidden="true"></span>Landscape</label>
+            </div>
+
+            <div class="gallery">
+              <article class="photo" data-category="portrait">
+                <figure>
+                  <div class="photo-frame"><img src="images/anak-kecil-x-laut.jpg" alt="Anak kecil berdiri di tepi laut saat sunset" width="800" height="1000" loading="lazy"></div>
+                  <p class="file-name">anak kecil x laut.jpg</p>
+                  <figcaption><h3>Kid</h3><p>/Portrait</p></figcaption>
+                </figure>
+              </article>
+              <article class="photo" data-category="portrait">
+                <figure>
+                  <div class="photo-frame"><img src="images/pesmaba-main.jpg" alt="Suasana mahasiswa baru di acara Pesmaba dengan semangat tinggi" width="800" height="1000" loading="lazy"></div>
+                  <p class="file-name">pesmaba.jpg</p>
+                  <figcaption><h3>Pesmaba</h3><p>/Portrait</p></figcaption>
+                </figure>
+              </article>
+              <article class="photo" data-category="event">
+                <figure>
+                  <div class="photo-frame"><img src="images/pesmaba-event-01.jpg" alt="Koordinator Pesmaba memimpin mahasiswa baru saat acara" width="800" height="1000" loading="lazy"></div>
+                  <p class="file-name">pesmaba-event-01.jpg</p>
+                  <figcaption><h3>Koordinasi Pesmaba</h3><p>/Event</p></figcaption>
+                </figure>
+              </article>
+              <article class="photo" data-category="event">
+                <figure>
+                  <div class="photo-frame"><img src="images/pesmaba-event-02.jpg" alt="Barisan mahasiswa baru membawa spanduk Fakultas Teknik" width="800" height="1000" loading="lazy"></div>
+                  <p class="file-name">pesmaba-event-02.jpg</p>
+                  <figcaption><h3>Barisan Pesmaba</h3><p>/Event</p></figcaption>
+                </figure>
+              </article>
+              <article class="photo" data-category="event">
+                <figure>
+                  <div class="photo-frame"><img src="images/pesmaba-event-03.jpg" alt="Mahasiswa baru berpose bersama dalam suasana Pesmaba" width="800" height="1000" loading="lazy"></div>
+                  <p class="file-name">pesmaba-event-03.jpg</p>
+                  <figcaption><h3>Momen Pesmaba</h3><p>/Event</p></figcaption>
+                </figure>
+              </article>
+              <article class="photo" data-category="street">
+                <figure>
+                  <div class="photo-frame"><img src="images/board-game.jpg" alt="Papan permainan tradisional dengan warna cerah" width="800" height="1000" loading="lazy"></div>
+                  <p class="file-name">board game.jpg</p>
+                  <figcaption><h3>Board Game</h3><p>/Street</p></figcaption>
+                </figure>
+              </article>
+              <article class="photo" data-category="landscape">
+                <figure>
+                  <div class="photo-frame"><img src="images/landscape-orang.jpg" alt="Siluet orang di tepi pantai saat senja" width="800" height="1000" loading="lazy"></div>
+                  <p class="file-name">landscape orang.jpg</p>
+                  <figcaption><h3>Landscape</h3><p>/Landscape</p></figcaption>
+                </figure>
+              </article>
+              <article class="photo" data-category="landscape">
+                <figure>
+                  <div class="photo-frame"><img src="images/laut-kuning.jpg" alt="Laut dengan cahaya kuning dan sunrise" width="800" height="1000" loading="lazy"></div>
+                  <p class="file-name">laut kuning.jpg</p>
+                  <figcaption><h3>Laut Kuning</h3><p>/Landscape</p></figcaption>
+                </figure>
+              </article>
+              <article class="photo" data-category="street">
+                <figure>
+                  <div class="photo-frame"><img src="images/pasar-malam.jpg" alt="Pemandangan malam pasar malam dengan bianglala bercahaya" width="800" height="1000" loading="lazy"></div>
+                  <p class="file-name">pasar malam.jpg</p>
+                  <figcaption><h3>Pasar Malam</h3><p>/Street</p></figcaption>
+                </figure>
+              </article>
+              <article class="photo project-file" data-category="street">
+                <figure>
+                  <div class="photo-frame">
+                    <a href="https://lapak-jas-merah.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Buka project web Lapak Jas Merah">
+                      <img src="https://lapak-jas-merah.vercel.app/assets/logo-DATRMaCU.png" alt="Logo Lapak Jas Merah" width="800" height="1000" loading="lazy">
+                    </a>
+                    <span class="project-badge">Web Project</span>
+                  </div>
+                  <p class="file-name">Lapak Jas Merah.web</p>
+                  <figcaption><h3>Lapak Jas Merah</h3><p>/Web Project</p></figcaption>
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+        <p class="statusbar">10 object(s) | Pilih folder untuk memfilter foto</p>
+      </article>
+    </section>
+
+    <!-- ============ CONTACT / MESSENGER ============ -->
+    <section id="contact" class="stage" aria-labelledby="contact-title">
+      <div class="contact-grid">
+
+        <article class="window win-chat">
+          <div class="titlebar">
+            <span class="titlebar-icon" aria-hidden="true"></span>
+            <p class="titlebar-name">Messenger.exe</p>
+            <span class="controls" aria-hidden="true"><span class="ctl">-</span><span class="ctl">&#9633;</span><span class="ctl ctl-close">x</span></span>
+          </div>
+          <div class="chat-head">
+            <span class="chat-logo" aria-hidden="true"></span>
+            <h2 id="contact-title">Pesan Baru</h2>
+            <span class="sparkle" aria-hidden="true">&#10022;</span>
+          </div>
+          <div class="window-body chat-body">
+            <ul class="chat-log">
+              <li class="bubble bubble-in"><span class="avatar" aria-hidden="true"></span><p>Halo Arjuan! Foto-fotonya keren banget. Open commission untuk photoshoot? <time datetime="13:30">13.30</time></p></li>
+              <li class="bubble bubble-out"><span class="avatar avatar-me" aria-hidden="true"></span><p>Halo, terima kasih! Tidak ada. <time datetime="13:32">13.32</time></p></li>
+            </ul>
+
+            <form class="chat-form" action="mailto:arjuansyuhada@gmail.com" method="post" enctype="text/plain">
+              <div class="field">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Siapa nih?" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="nama@email.com" autocomplete="email" required>
+              </div>
+              <div class="field">
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" rows="5" placeholder="Ceritain acara atau ide fotomu di sini" required></textarea>
+              </div>
+              <button type="submit" class="aero">Kirim Pesan</button>
+            </form>
+          </div>
+        </article>
+
+        <article class="window win-info" aria-labelledby="info-title">
+          <div class="titlebar">
+            <span class="titlebar-icon" aria-hidden="true"></span>
+            <p class="titlebar-name">Contact_Info.txt</p>
+            <span class="controls" aria-hidden="true"><span class="ctl">-</span><span class="ctl">&#9633;</span><span class="ctl ctl-close">x</span></span>
+          </div>
+          <div class="window-body">
+            <h3 id="info-title">Contact Info</h3>
+            <address>
+              <strong>Akhmad Arjuan Syuhada</strong><br>
+              Universitas Muhammadiyah Malang<br>
+              Malang, Indonesia
+            </address>
+            <p class="hours">Photographer &amp; Developer. Siap berdiskusi untuk project visual, dokumentasi acara, atau kolaborasi.</p>
+            <h3>Cari aku di sini</h3>
+            <ul class="social">
+              <li><a href="https://www.instagram.com/juansy1_/?hl=id" target="_blank" rel="noopener"><span class="sicon sicon-ig" aria-hidden="true">IG</span>@juansy1_</a></li>
+              <li><a href="https://wa.me/6287835062295" target="_blank" rel="noopener"><span class="sicon sicon-be" aria-hidden="true">WA</span>+62-878-3506-2295</a></li>
+              <li><a href="mailto:arjuansyuhada@gmail.com"><span class="sicon sicon-mail" aria-hidden="true">@</span>arjuansyuhada@gmail.com</a></li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER + TASKBAR ============ -->
+  <footer class="site-footer">
+    <p class="credit">&copy; 2026 Akhmad Arjuan Syuhada.</p>
+    <nav aria-label="Navigasi footer">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="taskbar">
+      <input type="checkbox" id="start-toggle" class="start-toggle" aria-label="Buka atau tutup menu Start">
+      <label for="start-toggle" class="start-btn"><span class="win-logo" aria-hidden="true"></span>start</label>
+      <label for="start-toggle" class="start-backdrop" aria-hidden="true"></label>
+      <ul class="start-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="tasks">
+        <li><a class="task" href="#portfolio"><span class="task-icon" aria-hidden="true"></span>Portfolio.exe</a></li>
+        <li><a class="task task-chat" href="#contact"><span class="task-icon" aria-hidden="true"></span>Messenger</a></li>
+      </ul>
+      <time class="clock" datetime="08:01">08.01</time>
+    </div>
+  </footer>
+
+</body>
+</html>
